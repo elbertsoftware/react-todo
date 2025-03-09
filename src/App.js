@@ -25,7 +25,7 @@ function App() {
   }
 
   const deleteTodo = (row) => {
-    let filteredTodos = todos.filter(value => value.order !== row);
+    const filteredTodos = todos.filter(value => value.order !== row);
     setTodos(filteredTodos);
   }
 
